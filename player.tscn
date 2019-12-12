@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://characters/characters.png" type="Texture" id=1]
+
+[node name="player" type="KinematicBody2D"]
+position = Vector2( -14.3736, 6.16011 )
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 121.878, 121.822 )
+scale = Vector2( 0.835884, 0.643548 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 9, 42, 15, 22 )
